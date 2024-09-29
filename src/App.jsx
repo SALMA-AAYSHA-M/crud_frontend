@@ -4,7 +4,7 @@ import "./App.css"; // Ensure to modify or add card-related styles here
 
 const API_URL = "https://crud-backend-phmn.onrender.com/items";
 
-function App() {
+function App() { 
   const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState("");
   const [editItemId, setEditItemId] = useState(null);
